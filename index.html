@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My weather application</title>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <form id="form-search-input">
+          <input
+            id="input-city"
+            type="search"
+            placeholder="Enter a city..."
+            required />
+          <input id="input-search" type="submit" value="Search" />
+        </form>
+      </header>
+      <hr />
+      <main>
+        <div class="current-weather">
+          <div class="weather-left-right">
+            <h1 id="city-weather"></h1>
+            <p>
+             <span id="day-time"></span>, <span id="specification-weather"></span><br />
+              Humidity: <strong id = "percent" class="strong-weather"></strong>, Wind:
+              <strong id="km" class="strong-weather"></strong>
+            </p>
+          </div>
+          <div class="degrees">
+            <div id="img-date"><img id="sun" src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/mist-day.png" alt=""></div><span id="temperature-span"></span> <span id="celsius">C°</span></div>
+        </div>
+      </main>
+      <hr >
+      <footer>
+        <p>
+       Coded by Maryna Yarochshuk
+        </p>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
