@@ -1,0 +1,111 @@
+body {
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/579/original/sky.jpg?1707472369");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+  color: #838386;
+  padding: 2px;
+  font-family: monospace;
+  margin-bottom: 3px;
+}
+
+form {
+  margin-bottom: 15px;
+  display: inline-flex;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: #885df1;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: bold;
+}
+hr {
+  opacity: 0.5;
+}
+
+.container {
+  background: white;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px 30px 0px 30px;
+  border-radius: 10px;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.strong-weather {
+  color: #f65282;
+}
+.degrees {
+  font-size: 75px;
+  font-weight: bold;
+  margin: 5px 0px 20px 20px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.weather-left-right p {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+#img-date {
+  display: inline;
+}
+#sun {
+  width: 88px;
+  height: 88px;
+  display: inline;
+  position: relative;
+  bottom: -20px;
+}
+#temperature-span {
+  position: relative;
+  right: -13px;
+}
+#celsius {
+  font-size: 35px;
+  position: relative;
+  top: -35px;
+  font-weight: lighter;
+}
+#input-city {
+  background: #f1f7fd;
+  border: none;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  padding: 20px;
+  width: 75%;
+  border-radius: 6px;
+}
+#input-search {
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: #61a5f6;
+  color: white;
+  border: none;
+  padding: 20px 42px;
+  line-height: 1;
+  border-radius: 5px;
+}
+#input-search:hover {
+  background-color: #2761a8;
+  cursor: pointer;
+}
