@@ -16,6 +16,11 @@
 <body>
   <div class="container">
     <header>
+      <img id="fenrir-img"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/116/373/original/fenrir.png?1708685958"
+        alt=""> <img id="fenrir-logo"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/116/374/original/fenrirlogo.png?1708685967"
+        alt="">
       <form id="form-search-input">
         <input id="input-city" type="search" placeholder="Enter a city..." required />
         <input id="input-search" type="submit" value="Search" />
@@ -23,24 +28,21 @@
     </header>
     <hr />
     <main>
-      <div class="main-section">
-        <div class="current-weather">
-          <div class="weather-left-right">
-            <h1 id="city-weather"></h1>
-            <p>
-              <span id="day-time"></span>, <span id="specification-weather"></span><br />
-              Humidity: <span id="percent" class="strong-weather"></span>, Wind:
-              <strong id="km" class="strong-weather"></strong>
-            </p>
-          </div>
-          <div class="degrees">
-            <div id="img-date"><img id="sun"
-                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/mist-day.png" alt=""></div><span
-              id="temperature-span"></span> <span id="celsius">C°</span>
-          </div>
+      <div class="current-weather">
+        <div class="weather-left-right">
+          <h1 id="city-weather"></h1>
+          <p>
+            <span id="day-time"></span>, <span id="specification-weather"></span><br />
+            Humidity: <span id="percent" class="strong-weather"></span>, Wind:
+            <span id="km" class="strong-weather"></span>
+          </p>
         </div>
-        <div id="forecast"></div>
+        <div class="degrees">
+          <div id="img-date"><img id="sun" src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/mist-day.png"
+              alt=""></div><span id="temperature-span"></span> <span id="celsius">C°</span>
+        </div>
       </div>
+      <div id="forecast" class="forecast"></div>
     </main>
     <hr>
     <footer>

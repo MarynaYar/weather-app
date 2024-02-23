@@ -35,25 +35,34 @@ h1 {
 }
 
 hr {
-  opacity: 0.5;
+  opacity: 0.3;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 .container {
   background: white;
   max-width: 600px;
-  margin: 60px auto;
-  padding: 30px 30px 0px 30px;
+  margin: 40px auto;
+  padding: 5px 20px 0px 30px;
   border-radius: 10px;
 }
 
 .current-weather {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px 22px;
 }
 
 .strong-weather {
   color: #f65282;
+  font-weight: 900;
+}
+
+.forecast {
+  margin: 17px 0px 32px;
 }
 
 .degrees {
@@ -79,7 +88,29 @@ hr {
 }
 
 .forecast-temperature {
-  color: #f65282
+  color: #F4628D;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 26px;
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.temperature-minimum {
+  opacity: 0.6;
+  margin-left: 10px;
+}
+
+#fenrir-img {
+  width: 80px;
+}
+
+#fenrir-logo {
+  width: 280px;
+  margin: 10px 0px 15px 5px;
 }
 
 #forecast {
