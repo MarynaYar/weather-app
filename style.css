@@ -209,7 +209,10 @@ hr {
   .weather-left {
     margin: 10px 30px 10px 0px;
     padding-left: 0px;
+  }
 
+  .fenrir {
+    margin-top: 15px;
   }
 
   .mobile {
