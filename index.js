@@ -65,7 +65,7 @@ function displayWeatherDays(response) {
       daysHTML = daysHTML +
         `<div class="forecast-days">
     <div class="forecast-day">${formatDays(day.time)}</div>
-      <div class="forecast-img"><img src="${day.condition.icon_url}" alt="forecast"></div>
+      <div class="forecast-img"><img id="forecast-img-id" src="${day.condition.icon_url}" alt="forecast"></div>
         <div class="forecast-temperature"><span>${Math.round(day.temperature.maximum)}°</span><span class="temperature-minimum">${Math.round(day.temperature.minimum)}°</span></div>
 </div>`}
   });

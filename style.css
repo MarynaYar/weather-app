@@ -202,7 +202,7 @@ hr {
   }
 
   .current-weather {
-    padding: 8px 0px;
+    padding: 2px 0px;
     justify-content: center;
   }
 
@@ -219,6 +219,14 @@ hr {
     display: block;
   }
 
+  .forecast-temperature {
+    font-size: 16px;
+  }
+
+  #forecast-img-id {
+    width: 75px;
+  }
+
   #temperature-span {
     bottom: -31px;
   }
@@ -231,6 +239,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 12px 0px 25px;
   }
 
   #celsius {
@@ -266,10 +275,4 @@ hr {
     margin: 0px;
     padding: 20px 32px;
   }
-}
-
-/*
-    
-
-  
 }
